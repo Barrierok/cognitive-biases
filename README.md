@@ -3,7 +3,7 @@
 [Сайт](http://cognitive-biases-hexlet.surge.sh)
 
 ```sh
-$ make install
+make install
 ```
 
 ## Run lint

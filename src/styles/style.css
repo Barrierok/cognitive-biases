@@ -45,10 +45,6 @@ h3 {
   font-size: 34px;
 }
 
-p {
-  margin-top: 20px;
-}
-
 a {
   text-decoration: none;
 }
@@ -74,16 +70,28 @@ a {
   position: relative;
 }
 
+.position-absolute {
+  position: absolute;
+}
+
 .box > * {
   width: calc(50% - 15px);
 }
 
-.min-h-100 {
-  min-height: 100vh;
-}
-
 .overflow-hidden {
   overflow: hidden;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
 }
 
 /* Main styles */
@@ -94,11 +102,10 @@ a {
 }
 
 .header-title {
-  margin-bottom: 225px;
+  margin-bottom: 200px;
 }
 
 .header-img {
-  position: absolute;
   top: 55px;
   right: -270px;
   z-index: -1;
@@ -122,16 +129,29 @@ a {
 }
 
 .btn {
+  display: block;
+  width: fit-content;
   padding: 11px 24px;
 
   background-color: var(--main);
 }
 
 .btn-link {
-  display: block;
-  width: fit-content;
   margin-top: 40px;
 
   color: var(--white);
   font-weight: bold;
+}
+
+.video-section {
+  height: 800px;
+}
+
+.video {
+  right: 0;
+  left: 0;
+
+  margin: auto;
+
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
