@@ -1,0 +1,18 @@
+.btn {
+  display: block;
+  width: fit-content;
+  padding: 11px 24px;
+
+  background-color: var(--primary);
+}
+
+.btn:hover {
+  background-color: var(--dark-orange);
+}
+
+.btn-link {
+  margin-top: 40px;
+
+  color: var(--white);
+  font-weight: bold;
+}
