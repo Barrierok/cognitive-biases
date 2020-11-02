@@ -4,10 +4,12 @@
   padding: 11px 24px;
 
   background-color: var(--primary);
+  border: none;
 }
 
 .btn:hover {
   background-color: var(--dark-orange);
+  cursor: pointer;
 }
 
 .btn-link {
@@ -15,4 +17,9 @@
 
   color: var(--white);
   font-weight: bold;
+}
+
+.btn-subscribe {
+  width: 70px;
+  height: 50px;
 }

@@ -3,6 +3,7 @@
 @import './default.css';
 @import './card.css';
 @import './btn.css';
+@import './form.css';
 
 /* Main styles */
 .container {
@@ -79,4 +80,36 @@
   font-size: 14px;
 
   text-transform: uppercase;
+}
+
+.send-icon {
+  position: relative;
+}
+
+.send-icon::before {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  content: url('../images/send.svg');
+}
+
+.info-block {
+  margin-top: 60px;
+  margin-bottom: -16px;
+
+  text-align: center;
+}
+
+.info-block p {
+  margin-bottom: 16px;
+}
+
+.info-block a {
+  color: var(--blue);
+
+  text-decoration: underline;
 }
